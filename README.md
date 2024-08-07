@@ -34,3 +34,20 @@ Welcome to the **Fresher Intro Tool**! This is a simple web-based form to introd
     - Click the `Submit` button to see your entered details displayed.
 
 
+## Customization 🎨
+
+- **Background Animation**: The background animation is defined using the `@keyframes` rule in CSS. You can customize the colors and animation duration as per your preference.
+- **Form Fields**: Modify the form fields by editing the HTML structure. Additional fields can be added if required.
+
+## Contribution 🤝
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE] file for details.
+
+---
+
+Made with ❤️ by Aritro Shome
+
