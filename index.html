@@ -3,29 +3,90 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fresher Intro Tool</title>
   <style>
-    html {
-  height: 100%;
-  width: 100%;
-}
-    /* Basic styling for the form */
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f3f4f6;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #8360c3, #2ebf91);
+    }
+
     #formspace {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      padding: 20px;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      color: #333;
+    }
+
+    input[type="text"],
+    select {
+      padding: 10px;
       border: 1px solid #ccc;
       border-radius: 5px;
+      width: calc(100% - 24px);
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #2ebf91;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #8360c3;
+    }
+
+    #display {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #ccc;
     }
   </style>
 </head>
 
 <body>
-  intro generator using format <br>
-  made by aritro shome <a href="https://github.com/sortira">Github</a>
   <div id="formspace">
+    <h2>Fresher Intro Tool</h2>
+    <p>Made by Aritro Shome <a href="https://github.com/sortira">Github</a></p>
     <label for="name">Name:</label>
     <input type="text" id="name" placeholder="Enter your full name">
 
@@ -35,26 +96,21 @@
     <label for="city">City:</label>
     <input type="text" id="city" placeholder="Enter city of residence">
 
-
     <label for="state">State:</label>
     <input type="text" id="state" placeholder="Enter state of residence">
 
-
     <label for="department">Department:</label>
     <select id="department">
-      <option value="Information Technology Engineering">IT</option>
+      <option value="Computer Science and Technology">IT</option>
       <option value="Aerospace Engineering">Aerospace</option>
       <option value="Mechanical Engineering">Mech</option>
-      <option value="Computer Science Engineering">CSE</option>
+      <option value="Computer Science and Technology">CSE</option>
       <option value="Electrical Engineering">Electrical</option>
-      <option value="Electronics and Telecommunications Engineering">ETCE</option>
+      <option value="Electronics and Telecommunication Engineering">ETCE</option>
       <option value="Mining Engineering">Mining</option>
       <option value="Metallurgical and Materials Engineering">Metallurgy and Materials</option>
       <option value="Civil Engineering">Civil</option>
       <option value="Architecture">Architecture</option>
-
-
-
     </select>
 
     <button id="submit">Submit</button>
