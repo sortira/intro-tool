@@ -1,5 +1,7 @@
 # Fresher Intro Tool 🌟
 
+Click [here](https://sortira.github.io/intro-tool/) to use the tool!
+
 Welcome to the **Fresher Intro Tool**! This is a simple web-based form to introduce freshers of Indian Institute of Engineering Science and Technology, Shibpur, Kolkata, West Bengal by collecting their basic details. The form includes fields for name, hobbies, city, state, and department. The design features a dynamic background and responsive layout. 🌈
 
 ## Features ✨
